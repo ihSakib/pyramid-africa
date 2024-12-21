@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pyramid-africa/static/css/main.d49ced0b.css",
-    "main.js": "/pyramid-africa/static/js/main.a2d10614.js",
+    "main.js": "/pyramid-africa/static/js/main.11652246.js",
     "static/media/fourth-img.png": "/pyramid-africa/static/media/fourth-img.7b1da2c4188931585227.png",
     "static/media/fifth-img.png": "/pyramid-africa/static/media/fifth-img.302c76c34299af0c0c1f.png",
     "static/media/seventh-img.png": "/pyramid-africa/static/media/seventh-img.ceff16dce630f50d0975.png",
@@ -25,10 +25,10 @@
     "static/media/tick-circle.svg": "/pyramid-africa/static/media/tick-circle.f03de24b75d04f914566846e524a50a3.svg",
     "static/media/tick-circle-white.svg": "/pyramid-africa/static/media/tick-circle-white.2b58fedfa2263decd2152f72bea2361b.svg",
     "main.d49ced0b.css.map": "/pyramid-africa/static/css/main.d49ced0b.css.map",
-    "main.a2d10614.js.map": "/pyramid-africa/static/js/main.a2d10614.js.map"
+    "main.11652246.js.map": "/pyramid-africa/static/js/main.11652246.js.map"
   },
   "entrypoints": [
     "static/css/main.d49ced0b.css",
-    "static/js/main.a2d10614.js"
+    "static/js/main.11652246.js"
   ]
 }
