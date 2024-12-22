@@ -17,13 +17,13 @@ export default function Hero() {
         <div className="flex flex-col gap-4 items-start">
           <a
             href="/"
-            className="bg-btn text-white font-primary rounded py-3 px-4 text-sm  lg:text-lg"
+            className="bg-btn text-white font-primary rounded py-3 px-4 text-sm  lg:text-lg hover:bg-opacity-80 transition"
           >
             Discover Our Database
           </a>
           <a
             href="/"
-            className="py-3 px-4 text-sm lg:text-lg font-primary text-white border-2 border-white rounded-md"
+            className="py-3 px-4 text-sm lg:text-lg font-primary text-white border-2 border-white rounded-md hover:bg-white hover:text-[#124b42]"
           >
             Create Your First Campaign — It's Free
           </a>

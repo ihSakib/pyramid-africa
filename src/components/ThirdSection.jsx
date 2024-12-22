@@ -65,7 +65,7 @@ export default function ThirdSection() {
           <div className="pt-8 lg:pt-10 text-center lg:text-left">
             <a
               href="/"
-              className=" text-white text-sm lg:text-lg lg:py-3 lg:px-5 bg-btn rounded py-2 font-primary leading-none px-3 "
+              className="text-white text-sm lg:text-lg lg:py-3 lg:px-5 bg-btn rounded py-2 font-primary leading-none px-3 transition hover:bg-[#065a4f]"
             >
               Create Your First Campaign - it's free
             </a>

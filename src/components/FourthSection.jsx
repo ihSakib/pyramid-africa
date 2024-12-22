@@ -66,15 +66,14 @@ export default function FourthSection() {
           <div className="pt-5 lg:pt-8 text-center">
             <a
               href="/"
-              className=" text-white text-sm lg:text-lg lg:py-3 lg:px-5 bg-btn rounded py-3 font-primary leading-none px-3 block w-full lg:w-fit "
+              className=" text-white text-sm lg:text-lg lg:py-3 lg:px-5 bg-btn rounded py-3 font-primary leading-none px-3 block w-full lg:w-fit hover:bg-[#065a4f] transition"
             >
               Create Your First Campaign - it's free
             </a>
           </div>
         </div>
-
         <div className="my-12 lg:my-0 lg:flex-1">
-          <img className="" src={img} alt="" />
+          <img className="hover:opacity-90" src={img} alt="" />
         </div>
       </div>
     </div>

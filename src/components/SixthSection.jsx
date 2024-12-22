@@ -17,7 +17,7 @@ export default function SixthSection() {
       </p>
 
       <div className="space-y-6 my-10 lg:flex lg:px-[200px] lg:gap-6 lg:space-y-0 lg:mt-20">
-        <div className="bg-white py-6 px-8">
+        <div className="bg-white py-6 px-8 hover:shadow-lg  transition duration-300   hover:scale-105">
           <div>
             <img src={star} alt="" className="mb-6" />
             <h2 className="text-xl text-[#062d28] font-primary font-bold">
@@ -40,7 +40,7 @@ export default function SixthSection() {
           <div className="mt-8 text-center">
             <a
               href="/"
-              className=" text-white text-sm bg-[#2a9d8f] block py-3 font-primary leading-none font-medium px-3 "
+              className=" text-white text-sm transition bg-[#2a9d8f] block py-3 font-primary leading-none font-medium px-3 hover:bg-opacity-80"
             >
               Get Started
             </a>
@@ -92,7 +92,7 @@ export default function SixthSection() {
           </div>
         </div>
 
-        <div className="bg-[#124B42]  py-6 px-8">
+        <div className="bg-[#124B42]  py-6 px-8 hover:shadow-lg  transition duration-300   hover:scale-105">
           <div>
             <img src={like} alt="" className="mb-6" />
             <h2 className="text-xl text-white font-primary font-bold">
@@ -116,7 +116,7 @@ export default function SixthSection() {
           <div className="mt-8 text-center">
             <a
               href="/"
-              className=" text-white text-sm bg-[#2a9d8f] block py-3 font-primary leading-none font-medium px-3 "
+              className=" text-white text-sm transition bg-[#2a9d8f] block py-3 font-primary leading-none font-medium px-3 hover:bg-opacity-80"
             >
               Get Started
             </a>
@@ -170,7 +170,7 @@ export default function SixthSection() {
           </div>
         </div>
 
-        <div className="bg-white py-6 px-8">
+        <div className="bg-white py-6 px-8 hover:shadow-lg transition duration-300   hover:scale-105">
           <div>
             <img src={medal} alt="" className="mb-6" />
             <h2 className="text-xl text-[#062d28] font-primary font-bold">
@@ -187,7 +187,7 @@ export default function SixthSection() {
           <div className="mt-4 text-center">
             <a
               href="/"
-              className=" text-white text-sm bg-[#2a9d8f] block py-3 font-primary leading-none font-medium px-3 "
+              className=" text-white text-sm transition bg-[#2a9d8f] block py-3 font-primary leading-none font-medium px-3 hover:bg-opacity-80"
             >
               Get Started
             </a>

@@ -9,7 +9,7 @@ import Features from "./pages/Features.jsx";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/pyramid-africa">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />

@@ -23,13 +23,13 @@ export default function layout() {
           {/***** nav right *******/}
           <div className="flex justify-between items-center gap-4 lg:gap-7">
             <Link
-              className="font-primary lg:text-lg leading-none text-white"
+              className="font-primary lg:text-lg leading-none text-white hover:text-opacity-80"
               to="/login"
             >
               Login
             </Link>
             <a
-              className="bg-btn font-primary  text-white text-sm px-3 py-2 lg:px-4 rounded leading-none lg:text-lg"
+              className="bg-btn font-primary  text-white text-sm px-3 py-2 lg:px-4 rounded leading-none lg:text-lg hover:bg-opacity-80"
               href="/"
               target="_blank"
             >
@@ -64,7 +64,7 @@ export default function layout() {
                   href="https://facebook.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-black text-white w-8 h-8 flex items-center justify-center rounded-full"
+                  className="bg-black text-white w-8 h-8 flex items-center justify-center rounded-full hover:bg-opacity-80"
                 >
                   <i className="fab fa-facebook-f"></i>
                 </a>
@@ -74,7 +74,7 @@ export default function layout() {
                   href="https://linkedin.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-black text-white w-8 h-8 flex items-center justify-center rounded-full"
+                  className="bg-black text-white w-8 h-8 flex items-center justify-center rounded-full hover:bg-opacity-80"
                 >
                   <i className="fab fa-linkedin-in"></i>
                 </a>
@@ -84,7 +84,7 @@ export default function layout() {
                   href="https://twitter.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-black text-white w-8 h-8 flex items-center justify-center rounded-full"
+                  className="bg-black text-white w-8 h-8 flex items-center justify-center rounded-full hover:bg-opacity-80"
                 >
                   <i className="fa-brands fa-x-twitter"></i>{" "}
                 </a>
@@ -134,11 +134,11 @@ export default function layout() {
                     <br />
                     South Africa | Morocco | Egypt
                   </p>
-                  <a className="flex items-center" href="">
+                  <a className="flex items-center hover:text-black" href="">
                     <i className="fa fa-envelope mr-2"></i>
                     support@pyramid.africa
                   </a>
-                  <a className="flex items-center" href="">
+                  <a className="flex items-center hover:text-black" href="">
                     <i className="fa fa-phone mr-2"></i>
                     +123-456-7890
                   </a>
@@ -152,8 +152,8 @@ export default function layout() {
         {/** footer bottom(mobile & desktop) */}
         <div className="mt-10  lg:my-10 lg:flex lg:justify-between lg:items-center ">
           <div className="font-secondary text-sm text-center space-x-4  ">
-            <a href="#">Terms of Service </a>
-            <a href="">Privacy Policy</a>
+            <a href="#" className="hover:text-black">Terms of Service </a>
+            <a href="" className="hover:text-black">Privacy Policy</a>
           </div>
           <div className="mt-4 lg:mt-0 lg:py-0 py-4 border-t-[2px] lg:border-none border-gray-200 text-center text-sm font-secondary">
             © {new Date().getFullYear()} Pyramid Africa. All rights reserved.

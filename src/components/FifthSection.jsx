@@ -14,7 +14,7 @@ export default function SixthSection() {
 
       <div className="lg:flex lg:gap-20 lg:flex-row-reverse lg:items-center lg:px-[200px] lg:mt-20 ">
         <div className="pl-6 my-12 lg:my-0 lg:pl-0 ">
-          <div className="pl-8 lg:pl-14 pb-8 border-l-4 border-[#087a68] relative">
+          <div className="pl-8 lg:pl-14 pb-8 border-l-4 border-[#087a68] relative hover:bg-[#e0f2f1]">
             <div className="absolute -top-1 -left-6 bg-[#087a68] text-white h-10 w-10 rounded-full flex justify-center items-center text-xl font-semibold font-secondary">
               1
             </div>
@@ -28,7 +28,7 @@ export default function SixthSection() {
             </p>
           </div>
 
-          <div className="pl-8 lg:pl-14 pb-8 border-l-4 border-[#087a68] relative">
+          <div className="pl-8 lg:pl-14 pb-8 border-l-4 border-[#087a68] relative hover:bg-[#e0f2f1]">
             <div className="absolute -top-1 -left-6 bg-[#087a68] text-white h-10 w-10 rounded-full flex justify-center items-center text-xl font-semibold font-secondary">
               2
             </div>
@@ -42,7 +42,7 @@ export default function SixthSection() {
             </p>
           </div>
 
-          <div className="pl-8 lg:pl-14 pb-8 border-l-4 border-[#087a68] relative">
+          <div className="pl-8 lg:pl-14 pb-8 border-l-4 border-[#087a68] relative hover:bg-[#e0f2f1]">
             <div className="absolute -top-1 -left-6 bg-[#087a68] text-white h-10 w-10 rounded-full flex justify-center items-center text-xl font-semibold font-secondary">
               3
             </div>
@@ -56,7 +56,7 @@ export default function SixthSection() {
             </p>
           </div>
 
-          <div className="pl-8 lg:pl-14 pb-12 border-l-4 border-[#087a68] relative">
+          <div className="pl-8 lg:pl-14 pb-12 border-l-4 border-[#087a68] relative hover:bg-[#e0f2f1]">
             <div className="absolute -top-1 -left-6 bg-[#087a68] text-white h-10 w-10 rounded-full flex justify-center items-center text-xl font-semibold font-secondary">
               4
             </div>
@@ -69,7 +69,7 @@ export default function SixthSection() {
             </p>
           </div>
 
-          <div className="pl-8 lg:pl-14 pb-4 relative">
+          <div className="pl-8 lg:pl-14 pb-4 relative hover:bg-[#e0f2f1]">
             <div className="absolute -top-1 -left-5 bg-[#087a68] text-white h-10 w-10 rounded-full flex justify-center items-center text-xl font-semibold font-secondary">
               5
             </div>
@@ -92,7 +92,7 @@ export default function SixthSection() {
       <div className=" text-center my-4 lg:mt-14">
         <a
           href="/"
-          className=" text-white text-sm lg:text-lg lg:py-3 lg:px-5  bg-btn rounded-md py-2 font-primary leading-none px-3 "
+          className=" text-white text-sm lg:text-lg lg:py-3 lg:px-5  bg-btn rounded-md py-2 font-primary leading-none px-3 transition hover:bg-[#065a4f]"
         >
           Discover Our Database{" "}
         </a>

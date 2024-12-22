@@ -45,18 +45,17 @@ export default function SecondSection() {
           </div>
         </div>
       </div>
-      
       <div className="my-5 lg:px-[204px]">
         <img
           src={img}
           alt=""
-          className="p-4 bg-gradient-to-b from-[#2bb19c] to-[#c4f0e9] rounded"
+          className="p-4 bg-gradient-to-b from-[#2bb19c] to-[#c4f0e9] rounded hover:opacity-90"
         />
       </div>
       <div className="mt-8 lg:mt-14 text-center">
         <a
           href="/"
-          className=" text-white text-sm bg-btn rounded py-2 font-primary leading-none px-3 lg:py-3 lg:px-5 lg:text-lg lg:px-4"
+          className=" text-white text-sm bg-btn rounded py-2 font-primary leading-none px-3 lg:py-3 lg:px-5 lg:text-lg transition hover:bg-[#065a4f]"
         >
           Discover Our Database
         </a>
